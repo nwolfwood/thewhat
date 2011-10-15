@@ -1,0 +1,2 @@
+rvm use --install --create ruby-1.9.2-p290@thewhat
+gem install --conservative bundler | grep "Successfully" && bundle install
